@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && next export",
-    "deploy": "npm run export && firebase deploy --only hosting"
+    "lint": "next lint"
   },
   "dependencies": {
     "@worldcoin/minikit-js": "^1.11.0",
@@ -23,6 +21,7 @@
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^5.15.9",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",

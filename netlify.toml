@@ -7,8 +7,3 @@
 
 [build.environment]
   NEXT_PUBLIC_ENVIRONMENT = "production"
-
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
